@@ -2,7 +2,7 @@
 
 ![autointerface evolution](history_preview.png)
 
-*There was a time when interface design meant opening Figma, pushing pixels, arguing about border radius, and handing off a file that developers would inevitably build wrong. That era is ending. Not because designers don't matter. Because their job is changing. The designer doesn't draw the interface anymore. The designer writes the spec that teaches the machine what the interface should do, who it's for, and what good looks like. The taste is still human. The pixels are not. This repo is the first experiment in autonomous interface evolution. -@Dragoon0x, March 2026*
+*There was a time when interface design meant opening Figma, pushing pixels, arguing about border radius, and handing off a file that developers would inevitably build wrong. That era is ending. Not because designers don't matter. Because their job is changing. The designer doesn't draw the interface anymore. The designer writes the spec that teaches the machine what the interface should do, who it's for, and what good looks like. The taste is still human. The pixels are not. This repo is the first experiment in autonomous interface evolution.*
 
 The idea: write an interface spec in plain language. Hand it to an AI agent. Walk away. The agent generates a working `app.html`, screenshots it, scores the screenshot using a vision model against real design principles (hierarchy, contrast, whitespace, alignment, accessibility, responsiveness). Better score? Keep and evolve. Worse? Discard. Repeat overnight. You wake up to a full evolution log, the best version, and a working interface you can actually ship.
 
